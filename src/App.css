@@ -1,0 +1,38 @@
+body {
+  font-family: 'Lucida Sans Unicode';
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.button {
+  background-color: #303030;
+  color: #50C8FF;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.button:hover {
+  background-color: #50C8FF;
+  color: #303030;
+  transition: background-color 0.5s, color 0.5s;
+}
+.name{
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  margin-left: 600px;
+  margin-bottom: 25px;
+
+}
